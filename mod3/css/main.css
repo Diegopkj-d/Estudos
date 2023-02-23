@@ -4,9 +4,18 @@
     padding: 0
     ;
 }
-
+    body > header {
+        background-color: #2f3640;
+        padding: 16px 0;
+        color: beige;
+    }
+    header .container {
+        display: flex;
+        align-items: center;
+    }
     header li {
         display: inline;
+        color:beige
     }
 
     .container {
@@ -26,4 +35,24 @@
     }
     .articles article {
         width: 30%;
+    }
+
+    section {
+        padding: 16px 0;
+    }
+
+    section h2 ,
+    .articles article{
+        margin-bottom: 16px;
+    }
+    .articles article h3 {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .articles article a {
+        background-color: blue;
+        color: aliceblue;
+        padding: 8px;
+        display: inline-block;
     }

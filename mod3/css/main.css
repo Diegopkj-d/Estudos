@@ -1,19 +1,58 @@
-h1 {
-    color: green
-}
-
-h2 {
-    color: green
-}
-
-#economy h2 {
-    color: gold
-}
-
-.creation-date {
-    color: #ccc
-}
-
 * {
-    color: red
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+    ;
 }
+    body > header {
+        background-color: #2f3640;
+        padding: 16px 0;
+        color: beige;
+    }
+    header .container {
+        display: flex;
+        align-items: center;
+    }
+    header li {
+        display: inline;
+        color:beige
+    }
+
+    .container {
+        width:1366px ;
+        margin: 0 auto 0 auto;
+
+    }
+
+    .articles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .articles article img {
+        height: 180px;
+    }
+    .articles article {
+        width: 30%;
+    }
+
+    section {
+        padding: 16px 0;
+    }
+
+    section h2 ,
+    .articles article{
+        margin-bottom: 16px;
+    }
+    .articles article h3 {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .articles article a {
+        background-color: blue;
+        color: aliceblue;
+        padding: 8px;
+        display: inline-block;
+    }
